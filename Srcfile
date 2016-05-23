@@ -10,11 +10,11 @@
          "Data":{  
             "JDK":true,
             "SourcePath":[  
-               [  
-                  ".",
-                  "",
-                  "src/share/classes"
-               ]
+               {
+                  "name": ".",
+                  "version": "",
+                  "filePath": "src/share/classes"
+               }
             ]
          }
       },
@@ -28,11 +28,11 @@
          "Data":{  
             "JDK":true,
             "SourcePath":[  
-               [  
-                  "BuildTools",
-                  "",
-                  "make/src/classes"
-               ]
+               {  
+                  "name": "BuildTools",
+                  "version": "",
+                  "filePath": "make/src/classes"
+               }
             ]
          }
       }
